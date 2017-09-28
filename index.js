@@ -3,9 +3,9 @@ var recipes = {
 };
 
 function updateObjectWithKeyAndValue(obj, key, value) {
-  obj2 = Object.assign(obj, key);
-  console.log('HEAVY EPIC FAIL');
-  return obj2;
+  newObj = Object.assign(obj, {});
+  newObj.key = value;
+  return newObj;
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
