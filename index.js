@@ -3,7 +3,8 @@ var recipes = {
 };
 
 function updateObjectWithKeyAndValue(obj, key, value) {
-  obj2 = Object.assign(obj, obj2);
+  obj2 = Object.assign(obj, key);
+  console.log('HEAVY EPIC FAIL');
   return obj2;
 }
 
